@@ -1,0 +1,196 @@
+body{
+display: block;
+}
+.navigation{
+display : flex ;
+flex-direction: row;
+}
+
+.id{
+padding: 10px;
+margin-left: 30px;
+border-bottom: rgb(0, 0, 0) 2px solid;
+list-style-type: none;
+}
+
+.id:hover{
+background-color: rgba(3, 3, 3, 0.267);
+}
+.id a{
+
+    text-decoration: none;
+color :rgb(255, 255, 255) ;
+font-family: sans-serif;
+font-size: 24px;
+
+}
+.id a:hover{
+    color: rgb(0, 0, 0);
+}
+.name{
+font-size: 70px;
+text-decoration: underline;
+font-style:italic;
+margin-left: 5%;
+color: rgb(255, 255, 255);
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+letter-spacing: 3px;
+}
+
+.khat{
+
+    border-bottom: black 1px solid;
+
+}
+.bg{
+    background-image:url("kenza.jpg");
+    background-repeat: no-repeat;
+    background-position: 30% 30%;
+    background-size: cover;
+}
+
+.balkis{
+margin-left: 30px;
+}
+
+.continer{
+    display : flex ;
+    width: 90%;
+    flex-direction: row;
+    padding: 0px 5%;
+}
+
+.texte{
+width:20%;
+height:12% ;
+background-color:rgba(243, 202, 202, 0.651) ;
+position: absolute;
+top: 90%;
+padding: 13px;
+color: rgba(49, 45, 45, 0.822);
+}
+
+.texte p{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: italic;
+font-size:20px;
+}
+
+.informations{
+width:100%;
+height:70%;
+background-color: rgba(12, 11, 11, 0.082);
+margin-top: -1%;
+
+
+}
+.mouraba3{
+display: flex;
+flex-direction: row;
+}
+.contacts{
+    width:100%;
+margin-top: 2.2%;
+margin-left: 0;
+
+}
+.cn{
+font-family: cursive;
+font-weight: bold;
+font-size: 20px;
+color: rgb(36, 31, 31);
+}
+
+.apropos{
+    margin-top: 2.2%;
+    width:100%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           font-size: 16px;
+
+}
+.less{
+    display : flex ;
+    flex-direction: row;
+    position: relative;
+}
+.font{
+        padding: 30px;
+        margin-left: 30px;
+        border-bottom: rgb(0, 0, 0) 2px solid;
+        list-style-type: none;
+        color: rgb(36, 31, 31);
+        font-size: 15px;
+        font-weight:bold;
+}
+
+        .ba3dou{
+            font-weight:bold;
+            margin: 0% 23% ;
+            padding: 30px;
+            padding-bottom: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            border-bottom: rgb(0, 0, 0) 2px solid;
+            list-style-type: none;
+            color: rgb(36, 31, 31);
+            font-size: 15px;
+        }
+
+        .nass{
+            margin-top: 5%;
+            margin: 3% ;
+            font-family: cursive;
+            color: rgb(36, 31, 31);
+            font-size: 12px;
+            width: 80%;
+            margin-right: 10%;
+        }
+        .louta{
+           font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           font-size: 16px;
+           width: 100%;
+
+        }
+        .everyone{
+            padding: 30px 0;
+
+        }
+        .header3{
+            font-family: avantgardebook,lucida grande,lucida sans unicode,dejavu sans,Verdana,sans-serif;
+            font-size: 36px;
+            color: rgb(32, 31, 31);
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            padding: 0px 0;
+            margin-left: -10%;
+        }
+ 
+        .header2{
+            font-family: avantgardebook,lucida grande,lucida sans unicode,dejavu sans,Verdana,sans-serif;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 0px 0;
+            font: inherit;
+            margin-left: -10%;
+            color: #ababab;
+            letter-spacing: 5px;
+        }
+        #trust{
+            padding: 30px 0 20px;
+            background: #f1f1f1;
+            margin:7% 0 0;
+        }
+       #trust .brands{
+            background: url("brands.webp") center no-repeat;
+            height: 30px;
+            padding: 30px;
+            
+        }
+       
+       #overlay .modd {
+        background: url("model.jpg") center no-repeat ;   
+        height: 30px;
+        padding: 18% ;
+        background-position: 30% 30%;
+        background-size: cover;
+       }
