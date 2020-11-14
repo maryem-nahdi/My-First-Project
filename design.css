@@ -4,12 +4,13 @@ display: block;
 .navigation{
 display : flex ;
 flex-direction: row;
+margin-left: 55%;
+padding-top: 20px;
 }
 
 .id{
-padding: 10px;
+
 margin-left: 30px;
-border-bottom: rgb(0, 0, 0) 2px solid;
 list-style-type: none;
 }
 
@@ -28,7 +29,7 @@ font-size: 24px;
     color: rgb(0, 0, 0);
 }
 .name{
-font-size: 70px;
+font-size: 50px;
 text-decoration: underline;
 font-style:italic;
 margin-left: 5%;
@@ -38,8 +39,9 @@ letter-spacing: 3px;
 }
 
 .khat{
-
-    border-bottom: black 1px solid;
+display: flex;
+flex-direction: row;
+   
 
 }
 .bg{
@@ -47,6 +49,45 @@ letter-spacing: 3px;
     background-repeat: no-repeat;
     background-position: 30% 30%;
     background-size: cover;
+    width: 100%;
+    height: 100%;  
+    top: 0;
+    left: 0;
+  
+}
+.taswira h1{
+font-family: avantgardebook,lucida grande,lucida sans unicode,dejavu sans,Verdana,sans-serif;
+text-transform: uppercase;
+color: #fff;
+text-shadow: 0 0 10px #666;
+letter-spacing: 5px;
+font-size: 27px;
+margin-top: 30px;
+}
+
+.taswira h2{
+    font-family: avantgardebook,lucida grande,lucida sans unicode,dejavu sans,Verdana,sans-serif;
+text-transform: uppercase;
+color: #fff;
+font-size: 18px;
+    text-shadow: 0 0 1px #333;
+    letter-spacing: 2px;
+}
+.taswira{
+margin: 13% 20%;
+text-align: center;
+
+}
+
+.hero {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    background-color: rgb(212, 139, 139);
+    color: rgb(255, 255, 255);
+    padding: 10px 8%;
+    margin:20px 5px;
+border-radius: 8px;
+text-transform: uppercase;
 }
 
 .balkis{
@@ -65,7 +106,7 @@ width:20%;
 height:12% ;
 background-color:rgba(243, 202, 202, 0.651) ;
 position: absolute;
-top: 90%;
+top: 170%;
 padding: 13px;
 color: rgba(49, 45, 45, 0.822);
 }
@@ -78,8 +119,7 @@ font-size:20px;
 
 .informations{
 width:100%;
-height:70%;
-background-color: rgba(12, 11, 11, 0.082);
+background-color:#333;
 margin-top: -1%;
 
 
@@ -87,6 +127,8 @@ margin-top: -1%;
 .mouraba3{
 display: flex;
 flex-direction: row;
+background-color: rgba(73, 66, 66, 0.246);
+margin-top: -1%;
 }
 .contacts{
     width:100%;
@@ -114,25 +156,27 @@ color: rgb(36, 31, 31);
     position: relative;
 }
 .font{
-        padding: 30px;
+        padding: 0px;
         margin-left: 30px;
         border-bottom: rgb(0, 0, 0) 2px solid;
         list-style-type: none;
-        color: rgb(36, 31, 31);
+        color: rgb(255, 255, 255);
         font-size: 15px;
         font-weight:bold;
+        text-align: center;
 }
 
         .ba3dou{
             font-weight:bold;
-            margin: 0% 23% ;
-            padding: 30px;
+            margin: 0% 30% ;
+            padding: 0px;
             padding-bottom: 0;
             font-family: Arial, Helvetica, sans-serif;
             border-bottom: rgb(0, 0, 0) 2px solid;
             list-style-type: none;
-            color: rgb(36, 31, 31);
+            color:#fff;
             font-size: 15px;
+        text-align: center;
         }
 
         .nass{
@@ -172,7 +216,7 @@ color: rgb(36, 31, 31);
             padding: 0px 0;
             font: inherit;
             margin-left: -10%;
-            color: #ababab;
+            color: #555454;
             letter-spacing: 5px;
         }
         #trust{
@@ -194,3 +238,4 @@ color: rgb(36, 31, 31);
         background-position: 30% 30%;
         background-size: cover;
        }
+       
